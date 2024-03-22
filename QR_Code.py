@@ -5,7 +5,7 @@ from Sheet import Numero
 
 
 def QR_Code(nom,prenom):
-    image = Image.open('LA FINALE ticket.png')
+    image = Image.open('assets/images/LA FINALE ticket.png')
     # numero=Numero()
     numero=272
     qr = qrcode.QRCode(box_size=13)
